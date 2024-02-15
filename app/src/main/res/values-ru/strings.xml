@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizland</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+
+    <string name="exercise_level1">ВЫберите карточку с большим числом. Вопросы могут повторяться до тнх пор пока вы не наберёте 20 очков</string>
+
+    <string name="interesting_fast_level1">Поздравлем, вы прошли уровень!\n
+        Разные культуры открыли для себя ноль в разное время. Идея нуля как числа была изобретена во всем мире в разные периоды истории. Несмотря на это разрозненное принятие, общепризнано, что индийский астроном и математик Брахмагупта впервые выдвинул концепцию нуля около 600 года н.э."</string>
+
+    <string name="finish_game">Поздравляем!\nИгра полностью пройдена.</string>
+    <string name="select_level">Выбрать уровень</string>
+
+    <string name="level_1">Уровень</string>
+    <string name="level_2">Уровень2</string>
+    <string name="level_3">Уровень3</string>
+    <string name="level_4">Уровень4</string>
+    <string name="level_5">Уровень5</string>
+    <string name="level_6">Уровень6</string>
+    <string name="level_7">Уровень7</string>
+    <string name="level_8">Уровень8</string>
+    <string name="level_9">Уровень9</string>
+    <string name="level_10">Уровень 10</string>
+    <string name="level_11">Уровень 11</string>
+    <string name="level_12">Уровень 12</string>
+    <string name="level_13">Уровень 13</string>
+    <string name="level_14">Уровень 14</string>
+    <string name="level_15">Уровень 15</string>
+    <string name="level_16">Уровень 16</string>
+    <string name="level_17">Уровень 17</string>
+    <string name="level_18">Уровень 18</string>
+    <string name="level_19">Уровень 19</string>
+    <string name="level_20">Уровень 20</string>
+    <string name="x">x</string>
+    <string name="_continue">Continue</string>
+    <string name="loct">🔒</string>
+</resources>

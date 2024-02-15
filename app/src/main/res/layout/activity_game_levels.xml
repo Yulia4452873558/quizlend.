@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameLevelsActivity"
+    android:background="@drawable/im_backkk">
+
+    <GridLayout
+        android:id="@+id/grid_levels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_level_1"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="1" />
+
+
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_2"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_3"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_4"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_5"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="@string/loct" />
+
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_6"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_7"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_8"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_9"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="@string/loct" />
+
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_10"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_11"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_12"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_13"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="@string/loct" />
+
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_14"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_15"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_16"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_17"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="@string/loct" />
+
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_18"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_19"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="@string/loct" />
+
+        <TextView
+            android:enabled="false"
+            android:id="@+id/tv_level_20"
+            style="@style/levels_tv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="@string/loct" />
+
+    </GridLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_back"
+        style="@style/my_button_style"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+
+        app:layout_constraintTop_toBottomOf="@+id/grid_levels"
+        app:layout_constraintEnd_toEndOf="@+id/grid_levels"
+        android:layout_marginEnd="5dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

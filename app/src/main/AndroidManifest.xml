@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proga"
+        tools:targetApi="31">
+        <activity
+            android:screenOrientation="locked"
+            android:name=".FinishActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level1"
+            android:exported="false" />
+        <activity
+
+            android:screenOrientation="locked"
+            android:name=".levels.Level2"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level3"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level4"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level5"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level6"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level7"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level8"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level9"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level10"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level11"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level12"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level13"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level14"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level15"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level16"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".levels.Level17"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Level18"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Level19"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Level20"
+            android:exported="false" />
+        <activity
+
+            android:screenOrientation="locked"
+            android:name=".GameLevelsActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="locked"
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

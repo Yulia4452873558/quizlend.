@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quizland</string>
+    <string name="start">Start</string>
+    <string name="back">back</string>
+
+    <string name="exercise_level1">Choose the number that is higher. Questions can be repeated until you score 20 points</string>
+
+    <string name="interesting_fast_level1">"Congratulations, you've completed the level!\n
+        Different Cultures Discovered Zero at Different Times. The idea of zero as a number was invented throughout the world at different times in history. Despite this scattered adoption, it's generally accepted that the Indian astronomer and mathematician Brahmagupta brought up the concept of zero for the first time, around 600 A.D."</string>
+
+    <string name="finish_game">Congratulations!\nThe game is completed.</string>
+    <string name="select_level">Select level</string>
+
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="level_6">Level 6</string>
+    <string name="level_7">Level 7</string>
+    <string name="level_8">Level 8</string>
+    <string name="level_9">Level 9</string>
+    <string name="level_10">Level 10</string>
+    <string name="level_11">Level 11</string>
+    <string name="level_12">Level 12</string>
+    <string name="level_13">Level 13</string>
+    <string name="level_14">Level 14</string>
+    <string name="level_15">Level 15</string>
+    <string name="level_16">Level 16</string>
+    <string name="level_17" translatable="false">Level 17</string>
+    <string name="level_18">Level 18</string>
+    <string name="level_19">Level 19</string>
+    <string name="level_20">Level 20</string>
+    <string name="x">x</string>
+    <string name="_continue">Continue</string>
+    <string name="loct">🔒</string>
+</resources>

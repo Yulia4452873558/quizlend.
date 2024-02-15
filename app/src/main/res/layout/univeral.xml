@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/im_backkk"
+    android:id="@+id/my_universal_constraint">
+
+    <TextView
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:id="@+id/tv_left_card"
+        style="@style/card_tv_style"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_right_card"
+        tools:text="1"
+        />
+
+
+    <TextView
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:id="@+id/tv_right_card"
+        style="@style/card_tv_style"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_left_card"
+        tools:text="18" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="20"
+        app:layout_constraintBottom_toTopOf="@+id/tv_left_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:thumbRadius="1dp"
+        app:tickRadiusActive="0dp"
+        app:tickRadiusInactive="2dp"
+        app:trackColorActive="@color/orange"
+        app:trackColorInactive="@color/white"
+        app:trackHeight="16dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_back"
+        style="@style/my_button_style"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        app:layout_constraintBottom_toTopOf="@+id/slider"
+        app:layout_constraintStart_toStartOf="@+id/tv_left_card" />
+
+    <TextView
+        android:id="@+id/tv_level_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/angrybirds_regular3"
+        android:textColor="@color/black_95"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_back"
+        app:layout_constraintEnd_toEndOf="@+id/tv_right_card"
+        app:layout_constraintTop_toTopOf="@+id/bt_back"
+        tools:text="Level: 1" />
+    
+    <TextView
+        android:id="@+id/tv_left_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/tv_left_card"
+        app:layout_constraintStart_toStartOf="@+id/tv_left_card"
+        app:layout_constraintTop_toBottomOf="@+id/tv_left_card"
+        android:text="One"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:fontFamily="@font/angrybirds_regular3"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_right_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/tv_right_card"
+        app:layout_constraintStart_toStartOf="@+id/tv_right_card"
+        app:layout_constraintTop_toBottomOf="@+id/tv_right_card"
+        android:text="Eigxteen"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:fontFamily="@font/angrybirds_regular3"
+        android:layout_margin="10dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

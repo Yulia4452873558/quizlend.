@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_end_dialog_constrain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/im_back_dialog_level1">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_close_dialog"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:text="@string/x"
+        android:textColor="@color/black_95"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/black_60"
+        app:strokeWidth="2dp" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_close_dialog">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/angrybirds_regular3"
+        android:text="@string/interesting_fast_level1"
+        android:textColor="@color/black_95"
+        android:textSize="24sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp" />
+    </androidx.core.widget.NestedScrollView>
+
+   <ImageView
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:src="@drawable/ic_arrow_up"
+       app:layout_constraintBottom_toTopOf="@+id/scroll_view"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_view"/>
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_continue"
+        style="@style/my_button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_view" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
